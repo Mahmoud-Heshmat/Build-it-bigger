@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.h2m.jokesandroidlib" >
+
+    <application>
+        <activity android:name=".JokesActivity"></activity>
+    </application>
+
+</manifest>
