@@ -34,7 +34,7 @@ public class JokesActivityFragment extends Fragment {
         textView.setText(joke);
 
         */
-        String gce_result = getActivity().getIntent().getStringExtra("gce_result");
+        String gce_result = getActivity().getIntent().getStringExtra(Constants.gceResult);
         TextView gce_result_show = (TextView) v.findViewById(R.id.jokes_text_view);
         gce_result_show.setText(gce_result);
 
